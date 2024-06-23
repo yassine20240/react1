@@ -1,0 +1,209 @@
+/* Basic styling for the entire container */
+.todo-container {
+    width: 100%;
+    max-width: 500px; /* Increased max-width for better readability */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styling */
+  h3 {
+    font-family: monospace;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, text-decoration 0.3s;
+  }
+  
+  li.hello {
+    background-color: #e0ffe0;
+    text-decoration: line-through;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Span styling for the finish button */
+  span {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ff0000;
+    font-weight: bold;
+    padding: 0 5px;
+    transition: color 0.3s;
+  }
+  
+  span:hover {
+    color: #ff5555;
+  }
+  
+  /* Input and button styling */
+  input {
+    width: calc(100% - 22px); /* Adjusted to better fit the container */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Additional class for the to-do item container */
+  .app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+/*
+input{
+    color: rgb(36, 28, 28) ;
+   margin-top: 0.3rem ; 
+  font-size: 1.3rem ; 
+
+
+}
+.allx button {
+    margin-left: 1rem; 
+}
+.allx {
+    display:  flex;
+    justify-content: space-between;
+}
+.heases{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+   margin-top: 5rem ;
+  background: rgb(13, 226, 226);
+ }
+.div1 {
+    display: flex;
+    margin-bottom: 4rem;  
+   
+
+}
+.div1 h1{
+  margin-right: 1rem;
+}
+ 
+button {
+    letter-spacing: 2px;
+    border:  rgb(40, 121, 214)    2px solid;
+    padding:  0.2rem 3rem ;
+   cursor: pointer
+   ;
+   font-size: 1rem;
+ 
+   margin-top:  1rem ;
+   background: rgb(20, 180, 201);
+}
+button:hover {
+    padding:  0.2rem 3rem ;
+    cursor: pointer
+    ;
+    margin-top:  1rem ;
+    background: rgb(221, 65, 187);
+ 
+ 
+    
+ }
+.error{
+    color: red ;
+    
+
+}
+.b{
+    margin-right: 1rem;
+}
+.x{
+    margin-top: 2.5rem;
+  margin-right: 1rem;
+
+
+}
+
+.x  Link{
+background: blueviolet;
+color: red;
+
+}
+
+.toppar{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+
+}
+.toppar h2{
+    color: rgb(224, 33, 81);
+    font-family: serif
+    ;
+    margin-left: 2rem;
+    font-style: italic;
+    font-size: 2rem;
+
+}
+
+ 
+
+
+
+ table{
+    border: rgb(190, 120, 120) 2px solid;
+    width: 50%;
+    margin-left: 16rem;
+
+ }
+
+
+ th{
+    border: red 2px solid;  
+ }
+
+ td{   border: red 2px solid;}
+
+ */
