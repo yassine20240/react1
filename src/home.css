@@ -1,17 +1,30 @@
-/* Basic styling for the entire container */
-.todo-container {
-    width: 100%;
-    max-width: 500px; /* Increased max-width for better readability */
+body{
+  background-color: #C80036;
+}
+  .list-item{
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  .cvx{
+width:500px ;
+  }
+  .todo-container {
+    
+    max-width: 300px;  
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #1d1d1d;
     border-radius: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
   }
-  
-  /* Heading styling */
+
+
+
   h3 {
     font-family: monospace;
     font-style: italic;
@@ -20,8 +33,7 @@
     color: #333;
     margin-bottom: 20px;
   }
-  
-  /* List styling */
+   
   ul {
     list-style-type: none;
     padding: 0;
@@ -38,19 +50,23 @@
   }
   
   li.hello {
-    background-color: #e0ffe0;
-    text-decoration: line-through;
+    background-color: #dd3d8d;
+    text-decoration: line-through 0.3rem ;
   }
   
   li:hover {
-    background-color: #f0f0f0;
+    background-color: #c28484;
   }
-  
-  /* Span styling for the finish button */
+
+
+
+
+
+
   span {
     font-size: 2rem;
     cursor: pointer;
-    color: #ff0000;
+    color: #161111;
     font-weight: bold;
     padding: 0 5px;
     transition: color 0.3s;
@@ -59,10 +75,9 @@
   span:hover {
     color: #ff5555;
   }
-  
-  /* Input and button styling */
+   
   input {
-    width: calc(100% - 22px); /* Adjusted to better fit the container */
+    width: calc(100% - 22px); 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -90,13 +105,121 @@
     background-color: #218838;
   }
   
-  /* Additional class for the to-do item container */
+   
   .app {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+  }  
   
+
+
+/*  
+ 
+.todo-container {
+  width: 70%;
+  max-width: 300px;  
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+ 
+h3 {
+  font-family: monospace;
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+ 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, text-decoration 0.3s;
+}
+
+li.hello {
+  background-color: #e0ffe0;
+  text-decoration: line-through;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+ 
+span {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ff0000;
+  font-weight: bold;
+  padding: 0 5px;
+  transition: color 0.3s;
+}
+
+span:hover {
+  color: #ff5555;
+}
+ 
+input {
+  width: calc(100% - 22px); 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ 
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}  v className="app"
+
+
+*/
+
+
+
+
+
+
 /*
 input{
     color: rgb(36, 28, 28) ;

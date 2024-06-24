@@ -45,21 +45,21 @@ settodos(newTodos)
     return(
 <>
 
-<div>
-
+<div className="list-item">
+ <div className="cvx">
 <h3>to do list </h3>
 
 <ul>
 {todos.map(( {x ,completed } ,index )=>{ 
 
-  return   (  <div   className="app">     
+  return   (  <div  className="app">     
 
   <li className={ completed ? 'hello' : ''} key={index} 
   
   onClick={ ()=>Remove (index) }> { x } </li>
 
 
- <span  onClick={()=>{Finish (index)}}> ++       </span>
+ <span  onClick={()=>{Finish (index)}}> ×       </span>
 
   </div>  )
    
@@ -76,7 +76,7 @@ settodos(newTodos)
 <input  ref={inpv}  placeholder="enter your item "/><br/>
 
 <button onClick={handletodo}>add </button>
-
+</div>
 </div>
 
 </>
