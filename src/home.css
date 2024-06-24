@@ -51,7 +51,7 @@ width:500px ;
   
   li.hello {
     background-color: #dd3d8d;
-    text-decoration: line-through 0.3rem ;
+    text-decoration: line-through 0.3rem white ;
   }
   
   li:hover {
